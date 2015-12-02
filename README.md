@@ -2,26 +2,28 @@
 
 Open Spotify, iTunes, SoundCloud, and YouTube right from your terminal in 2.4812 seconds.
 
-DESCRIPTION
 Usefull for people that spend more time in their terminal than friends and family, listen to music from multiple apps and websites. For people that use flags in their commands becuase writing 'git add', and 'git commit' on seperate lines is a waste of their time.
 
 Type 'music' in your terminal, from any directory, and choose to open the Spotify or iTunes app with (of course) the key shortcuts 's' or 'i'. If you want to find a specific song, artist, album, or instrumental just type it is as if you are searching it on the web ex: "j cole warm up." From there it will search YouTube or SoundCloud for your awesome music.
 
 Quick. Fast. Simple.
 
+
 REQUIREMENTS
+
 - Must have Ruby installed
 - Likely only to work on Mac
 - Spotify and iTunes must be installed in the path '~/../../Applications/' and have the file extention '.app' (this can be changed in lines 17/21).
 
 
 SET UP
-1) Save the code localy.
 
-2) Create an alias by entering the code below:
+1. Save the code localy.
+
+2. Create an alias by entering the code below:
     alias music="ruby ~/< path to file from root directory>/music_now/main.rb"
 
-3) enjoy
+3. enjoy
 
 
 TROUBLE SHOOTING
