@@ -27,11 +27,11 @@ SET UP
 
 
 TROUBLE SHOOTING
-If your music alias is not running the program, try one of the following:
+- If your music alias is not running the program, try one of the following:
   1. run #2 in setup again and make sure you have the .rb file extention at the end of the path
   2. make sure the path after '~/' is correct. To see where that path starts from type 'cd ~/' to go to root directoy then 'pwd' to print working directory as a refernce. Run #2 in setup again with the correct path from that directory to the file main.rb.
 
-If the application cannot find the spotify app, itunes app or claims that directory does not exist, try one of the following:
+- If the application cannot find the spotify app, itunes app or claims that directory does not exist, try one of the following:
   1. Change the location of the selected music application to ~/../../Applications/APP_NAME.app
   2. Change the path in lines 17 or 21 in main.rb, to the path where the corisponding music application is located
   3. Give up
