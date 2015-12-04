@@ -20,10 +20,13 @@ SET UP
 
 1. Save the code localy.
 
-2. Create an alias by entering the code below:
-    alias music="ruby ~/< path to file from root directory>/music_now/main.rb"
+2. Type 'pwd' to see the path to the music_now root file.
 
-3. enjoy
+3. With your text editor open '~/.bash_profile' and find the list of Aliases.
+
+4. Below your existing aliases add: alias music="ruby ~/<your_path>/music_now/main.rb"
+
+5. Save the file, quit and relaunch Terminal, and enjoy.
 
 
 TROUBLE SHOOTING
